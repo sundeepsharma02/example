@@ -77,10 +77,10 @@ export default async function ans({params}){
 
 async function gettl(id){
   try{
-    let ans = await fetch(`https://api.stackexchange.com/2.3/answers/${id}/?site=stackoverflow&filter=withbody&key=JBxjVFdP6JMHtmjMnFhHpQ((`);
+    let ans = await fetch(`https://api.stackexchange.com/2.3/answers/${id}/?site=stackoverflow&filter=withbody&key=rl_koZYVcEFswfj12wG5MoNkxv6k`);
     let resans = await ans.json();
     let qid = resans.items[0].question_id;
-    let qsn = await fetch(`https://api.stackexchange.com/2.3/questions/${qid}/?site=stackoverflow&filter=withbody&key=JBxjVFdP6JMHtmjMnFhHpQ((`);
+    let qsn = await fetch(`https://api.stackexchange.com/2.3/questions/${qid}/?site=stackoverflow&filter=withbody&key=rl_koZYVcEFswfj12wG5MoNkxv6k`);
     let resqsn = await qsn.json();
     let rtn =  {
         qtitle:resqsn.items[0].title,
@@ -95,10 +95,10 @@ async function gettl(id){
 }
 async function manageAnswer(id){
     try{
-        let ans = await fetch(`https://api.stackexchange.com/2.3/answers/${id}/?site=stackoverflow&filter=withbody&key=JBxjVFdP6JMHtmjMnFhHpQ((`);
+        let ans = await fetch(`https://api.stackexchange.com/2.3/answers/${id}/?site=stackoverflow&filter=withbody&key=rl_koZYVcEFswfj12wG5MoNkxv6k`);
         let resans = await ans.json();
         let qid = resans.items[0].question_id;
-        let qsn = await fetch(`https://api.stackexchange.com/2.3/questions/${qid}/?site=stackoverflow&filter=withbody&key=JBxjVFdP6JMHtmjMnFhHpQ((`);
+        let qsn = await fetch(`https://api.stackexchange.com/2.3/questions/${qid}/?site=stackoverflow&filter=withbody&key=rl_koZYVcEFswfj12wG5MoNkxv6k`);
         let resqsn = await qsn.json();
         aid = resans.items[0].answer_id
         m = resans.items[0].last_edit_date
