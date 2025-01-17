@@ -1,7 +1,6 @@
 'use client'
 import {useEffect,useRef} from "react"
 // import Pop from "./pop"
-import Router from 'next/router'
 export default function Ad1() {
 const nw = useRef()
 
@@ -11,16 +10,16 @@ useEffect(() => {
 		sp.id="a1"
 		sp.type="text/javascript";
 		sp.innerHTML=`
-	 atOptions = {
-		'key' : '6d74d23d628609fe44464fb80acc6f22',
+	atOptions = {
+		'key' : '1318d937702a6a3bab8f22e165c30aff',
 		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
+		'height' : 90,
+		'width' : 728,
 		'params' : {}
 	};
 		`;
 	let sp1 = document.createElement('script')
-	sp1.src="//collectbladders.com/6d74d23d628609fe44464fb80acc6f22/invoke.js";
+	sp1.src="//identicalprofile.com/1318d937702a6a3bab8f22e165c30aff/invoke.js";
 	sp.onload=()=>{
 	console.log("loaded1");
 	}
@@ -37,7 +36,7 @@ useEffect(() => {
 	};
 	`;
 	let ppc1 = document.createElement("script")
-	ppc1.src = "//collectbladders.com/7a0aed8f84ed52875aca496dfed51337/invoke.js";
+	ppc1.src = "//identicalprofile.com/7a0aed8f84ed52875aca496dfed51337/invoke.js";
 	ppc1.onload=()=>{
 	let ppp = document.createElement("script")
 	ppp.id="a3"
@@ -51,7 +50,7 @@ useEffect(() => {
 	};
 	`;
 	let ppp1 = document.createElement("script")
-	ppp1.src = "//collectbladders.com/b1ca5f8fbafd87df7f466d1df734cfcc/invoke.js";
+	ppp1.src = "//identicalprofile.com/b1ca5f8fbafd87df7f466d1df734cfcc/invoke.js";
 	ppp1.onload=()=>{
 	let ppk = document.createElement("script")
 	ppk.id="a4"
@@ -65,7 +64,7 @@ useEffect(() => {
 	};
 	`;
 	let ppk1 = document.createElement("script")
-	ppk1.src = "//collectbladders.com/6d298f91c4654d7b180a646a7fa5836f/invoke.js";
+	ppk1.src = "//identicalprofile.com/6d298f91c4654d7b180a646a7fa5836f/invoke.js";
 	ppk1.onload=()=>{
 	console.log("loaded");
 	}

@@ -60,7 +60,7 @@ export default async function Ans({id,ms}){
 async function getRelated(tag){
 try{
  let req = await fetch(
-    `https://api.stackexchange.com/2.3/search/advanced?tagged=${tag}&accepted=True&site=stackoverflow&key=$rl_koZYVcEFswfj12wG5MoNkxv6k`
+    `https://api.stackexchange.com/2.3/search/advanced?tagged=${tag}&accepted=True&site=stackoverflow&key=${process.env.KEY}`
   );
 let res = await req.json();
 return res.items;
