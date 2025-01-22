@@ -20,7 +20,7 @@ return (
 <Link href="/" ref={sref} className="d-none">Search code examples</Link>
 <nav className="navbar navbar-light bg-body-tertiary">
   <div className="container-fluid">
-    <Link href="/" className="navbar-brand mb-0 h1">EXAMPLE-A</Link>
+    <h1><Link href="/" className="navbar-brand mb-0 h1">EXAMPLE-A</Link> </h1>
     <form className="d-flex input-group w-auto" onSubmit={handleSearch} ref={fmref}>
       <input
         type="search"

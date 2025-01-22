@@ -16,6 +16,7 @@ try{
      title:at?.qtitle,
      description:at?.qtitle+" "+at?stripHtml(at.qbody.slice(0,200)).replaceAll(/\n|"|\t|\\|\s|  /g,' '):'',
      keywords:at?.qtags.toString(),
+     robots:"noodp",
      alternates:{
          canonical:`https://example-a.com/answer/${aid}`
      }

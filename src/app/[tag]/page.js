@@ -6,7 +6,9 @@ import Script from 'next/script'
 export function generateMetadata({params}){
     return{
         title:`${params.tag} Examples and Free Source Code - EXAMPLE-A`,
-        description:params.tag+ " find here code examples, projects, interview questions, cheatsheet, and problem solution you have needed. Many source codes of "+params.tag+" are available for free here."
+        description:params.tag+ " find here code examples, projects, interview questions, cheatsheet, and problem solution you have needed. Many source codes of "+params.tag+" are available for free here.",
+        keywords:`${params.tag}`,
+        robots:"noodp"
     }
 }
 export default function tag(params){

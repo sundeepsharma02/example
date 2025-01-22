@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "example-a",
+  "url": "https://example-a.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://example-a.com/search/{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
