@@ -18,6 +18,7 @@
     "next-nprogress-bar": "^2.1.2",
     "npm": "^10.8.0",
     "pdfjs-dist": "^4.2.67",
+    "pg": "^8.13.1",
     "purgecss": "^6.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
